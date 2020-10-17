@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="hint">Your name</string>
+    <string name="buttonText">Say Hello</string>
+    <string name="textBasic">Hello there</string>
+    <string name="random">Randomize</string>
+    <string name="buttonSearch">Search</string>
+    <string name="share">Share</string>
+
+
+    <!--String Array for Spinner-->
+    <string-array name="color_array">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+    </string-array>
+
+
+    <string name="search">Search</string>
+</resources>
