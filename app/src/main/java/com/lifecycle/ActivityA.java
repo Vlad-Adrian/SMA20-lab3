@@ -1,4 +1,4 @@
-package lifecycle;
+package com.lifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.helloandroid.R;
+import com.R;
 
 
 public class ActivityA extends AppCompatActivity {
@@ -69,6 +69,7 @@ public class ActivityA extends AppCompatActivity {
             case R.id.buttonC:
                 startActivity(new Intent(this, ActivityC.class));
                 break;
+
         }
     }
 }

@@ -20,7 +20,16 @@
 
     <string name="search">Search</string>
 
+    <!-- LifeCycleButtons -->
     <string name="buttonA">Start A</string>
     <string name="buttonB">Start B</string>
     <string name="buttonC">Start C</string>
+    <string name="buttonD">Start D</string>
+
+    <!--IntentsBUttons -->
+
+    <string name="button1">HTTP -> VIEW ACTION</string>
+    <string name="button2">PHONE -> VIEW ACTION</string>
+    <string name="button3">HTTPS -> MSA</string>
+    <string name="button4">PHONE -> MSA</string>
 </resources>

@@ -1,4 +1,4 @@
-package lifecycle;
+package com.lifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,52 +8,53 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.helloandroid.R;
+import com.R;
 
-public class ActivityC extends AppCompatActivity {
-    private static final String TAG = "ActivityC";
+public class ActivityB extends AppCompatActivity {
+
+    private static final String TAG = "ActivityB";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.button_activity);
         setTitle("B");
-        Log.d(TAG, "onCreate C");
+        Log.d(TAG, "onCreate B");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG, "onStart C");
+        Log.d(TAG, "onStart B");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "onResume C");
+        Log.d(TAG, "onResume B");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d(TAG, "onRestart C");
+        Log.d(TAG, "onRestart B");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG, "onPause C");
+        Log.d(TAG, "onPause B");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(TAG, "onStop C");
+        Log.d(TAG, "onStop B");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(TAG, "onDestroy C");
+        Log.d(TAG, "onDestroy B");
     }
 
     public void clicked(View view) {
