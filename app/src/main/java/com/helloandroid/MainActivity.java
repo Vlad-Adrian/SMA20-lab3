@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
 
-    public void clicked(View view) {
+    public void helloClicked(View view) {
         String name = "Hello, " + eName.getText().toString();
         tName.setText(name);
     }

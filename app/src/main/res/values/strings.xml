@@ -19,4 +19,8 @@
 
 
     <string name="search">Search</string>
+
+    <string name="buttonA">Start A</string>
+    <string name="buttonB">Start B</string>
+    <string name="buttonC">Start C</string>
 </resources>
